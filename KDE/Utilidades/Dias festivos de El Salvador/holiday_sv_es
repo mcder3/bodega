@@ -1,0 +1,62 @@
+::
+:: Country:  El_Salvador
+::
+:: Language: Spanish
+::
+:: Author:   Mcder3 <mcder3@gmail.com>
+::
+:: Updated:  28-AUG-2017
+::
+:: Source:   http://www.elsv.info/dias-festivos-o-celebres-en-el-salvador
+
+:: Metadata
+country     "SV"
+language    "es"
+name        "El_Salvador"
+description "Días Festivos y Feriados de El Salvador"
+
+:: Public Holidays
+"Año Nuevo"                                             public on january 1
+"Día Internacional del Trabajo"                         public on may 1
+"Dia de la Madre"                                       public on may 10
+"Dia del Padre"                                         public on june 17
+"Conmemoración de la Independencia de El Salvador"      public on september 15
+
+:: Religious
+"Día de los Reyes Magos"                                public religious on january 6
+"Jueves Santo"                                          public religious on easter minus 3 days
+"Viernes Santo"                                         public religious on easter minus 2 days
+"Sabado Santo"                                          public religious on easter minus 1 days
+"Domingo de Resurección"                                public religious on easter
+"Celebración del Divino Salvador del Mundo"             public religious on august 6
+"Día de los Difuntos"                                   public religious on november 2
+"Navidad"                                               public religious on december 25
+
+:: Financial
+
+:: Cultural
+
+:: School
+
+:: Daylight Saving
+
+:: Seasons
+
+:: Name Days
+
+:: To be sorted
+"Firma de los Acuerdos de Paz"                          civil on january 16
+"Día del Amor y la Amistad"                             civil on february 14
+"Día de la Mujer"                                       civil on march 8
+"Día del Agua"                                          civil on march 22
+"Día de la Tierra"                                      civil on april 22
+"Día del Internet"                                      civil on may 17
+"Día del Medio Ambiente"                                civil on june 5
+"Día del Niño"                                          civil on october 1
+"Día del Informatico"                                   civil on october 5
+"Día de la Niña"                                        civil on october 11
+"Día de la Raza"                                        civil on october 12
+"Primer Grito de Independencia"                         civil on november 5
+"Noche Buena"                                           civil on december 24
+"Día de los Inocentes"                                  civil on december 28
+"Fin de Año"                                            civil on december 31

@@ -1,0 +1,7 @@
+Este elemento agrega al plasmoid de reloj + calendario los dias festivos de El Salvador.
+
+Para instarlo hay que copiar el archivo a la carpeta "/usr/share/kf5/libkholidays/plan2/" con lo cual se logra con el siguiente comando:
+
+sudo cp ./holiday_sv_es /usr/share/kf5/libkholidays/plan2/
+
+NOTA: Abrir terminal en el lugar exacto que esta el archivo
