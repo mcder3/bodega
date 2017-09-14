@@ -1,13 +1,13 @@
-#Noc for ZSH Ver. 0.1
+#Noc for ZSH Ver. 0.2
 
 #Encabezado
-info="\n$FG[167] «« Información del sistema »» \n%{$reset_color%}%"
+info="\n$FG[167] ►► Información del sistema ◄◄ \n%{$reset_color%}%"
 
 #Screenfetch
 sf=`screenfetch`
 
 #Tiempo
-tiempo='$FG[038] • Hola $FG[085]`whoami`$FG[038], Ahora es $FG[085]`date`%{$reset_color%}%'
+tiempo='$FG[038] → Hola $FG[085]`whoami`$FG[038], Ahora es $FG[085]`date`%{$reset_color%}%'
 
 #Imprimir
 print -P $info
@@ -17,7 +17,8 @@ print -P $tiempo
 echo " "
 
 ######
-PROMPT='$FG[038][%*] $FG[085]${PWD/#$HOME/~}$(git_prompt_info) $FG[051]» %{$reset_color%}%'
+local ret_status="%(?:%{$fg_bold[green]%}•:%{$fg_bold[red]%}•)"
+PROMPT=' ${ret_status} $FG[038][%*] $FG[085]${PWD/#$HOME/~}$(git_prompt_info) $FG[051]» %{$reset_color%}%'
 
 ZSH_THEME_GIT_PROMPT_PREFIX=" %{$fg[magenta]%}"
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
