@@ -1,4 +1,4 @@
-#Noc for ZSH Ver. 0.2
+#Noc for ZSH Ver. 0.1
 
 #Encabezado
 info="\n$FG[167] ►► Información del sistema ◄◄ \n%{$reset_color%}%"
@@ -7,7 +7,12 @@ info="\n$FG[167] ►► Información del sistema ◄◄ \n%{$reset_color%}%"
 sf=`screenfetch`
 
 #Tiempo
-tiempo='$FG[038] → Hola $FG[085]`whoami`$FG[038], Ahora es $FG[085]`date`%{$reset_color%}%'
+dia=`date +%A`
+dia_num=`date +%d`
+mes=`date +%B`
+year=`date +%Y`
+hora=`date +%X`
+tiempo='$FG[038] → Hola $FG[085]`whoami`$FG[038], la fecha es $FG[085]${dia} ${dia_num} de ${mes} de ${year} $FG[038]y abriste la terminal a las $FG[227]${hora} %{$reset_color%}%'
 
 #Imprimir
 print -P $info
